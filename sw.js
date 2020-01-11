@@ -3,7 +3,7 @@ const urlsToCache = [
   "./index.html",
   "./restaurant.html",
   "./js/dbhelper.js",
-  "./js/restaurantinfo.js",
+  "./js/restaurant_info.js",
   "./README.md",
   "./js/main.js",
   "./img/1.jpg",
