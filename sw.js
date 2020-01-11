@@ -35,6 +35,7 @@ self.addEventListener("activate", e => {
       return Promise.all(
         CACHE_NAME.map(cache => {
           if (cache !== CACHE_NAME) {
+            console.log("activated");
             return caches.delete(cache);
           }
         })
